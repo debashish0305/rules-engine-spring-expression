@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Apply Discount of 27 % for Delhi if vehicle is four-wheeler",
+    "id": "1",
+    "expression": "state== 'DEL' && evehicle == 'THREE_WHEELER'",
+    "discount": ".27"
+  },
+  {
+    "name": "Apply Discount of 33 % for Delhi if vehicle is four-wheeler",
+    "id": "2",
+    "expression": "state== 'DEL' && evehicle == 'FOUR_WHEELER'",
+    "discount": ".33"
+  },
+  {
+    "name": "Apply Discount of 22 % for Delhi if vehicle is two-wheeler",
+    "id": "3",
+    "expression": "state== 'DEL' && evehicle == 'TWO_WHEELER'",
+    "discount": ".22"
+  },
+  {
+    "name": "Apply Discount of 12 % for Maharashtra if vehicle is three-wheeler",
+    "id": "4",
+    "expression": "state== 'MAHA' && evehicle == 'THREE_WHEELER'",
+    "discount": ".12"
+  },
+  {
+    "name": "Apply Discount of 18 % for Maharashtra if vehicle is four-wheeler",
+    "id": "5",
+    "expression": "state== 'MAHA' && evehicle == 'FOUR_WHEELER'",
+    "discount": ".18"
+  },
+  {
+    "name": "Apply Discount of 11 % for Maharashtra if vehicle is two-wheeler",
+    "id": "6",
+    "expression": "state== 'MAHA' && evehicle == 'TWO_WHEELER'",
+    "discount": ".11"
+  },
+  {
+    "name": "Apply Discount of 15 % for Tamilnadu if vehicle is three-wheeler",
+    "id": "7",
+    "expression": "state== 'MAHA' && evehicle == 'THREE_WHEELER'",
+    "discount": ".15"
+  },
+  {
+    "name": "Apply Discount of 13 % for TamilNadu if vehicle is four-wheeler",
+    "id": "8",
+    "expression": "state== 'TN' && evehicle == 'FOUR_WHEELER'",
+    "discount": ".13"
+  },
+  {
+    "name": "Apply Discount of 12 % for Tamilnadu if vehicle is two-wheeler",
+    "id": "9",
+    "expression": "state== 'TN' && evehicle == 'TWO_WHEELER'",
+    "discount": ".12"
+  }
+]
