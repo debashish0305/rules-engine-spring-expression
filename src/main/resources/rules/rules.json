@@ -1,6 +1,6 @@
 [
   {
-    "name": "Apply Discount of 27 % for Delhi if vehicle is four-wheeler",
+    "name": "Apply Discount of 27 % for Delhi if vehicle is three-wheeler",
     "id": "1",
     "expression": "state== 'DEL' && evehicle == 'THREE_WHEELER'",
     "discount": ".27"
@@ -12,10 +12,10 @@
     "discount": ".33"
   },
   {
-    "name": "Apply Discount of 22 % for Delhi if vehicle is two-wheeler",
+    "name": "Apply Discount of 23 % for Delhi if vehicle is two-wheeler",
     "id": "3",
     "expression": "state== 'DEL' && evehicle == 'TWO_WHEELER'",
-    "discount": ".22"
+    "discount": ".23"
   },
   {
     "name": "Apply Discount of 12 % for Maharashtra if vehicle is three-wheeler",
